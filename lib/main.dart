@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'onboard.dart';
+import 'pages/mainpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const OnBoard(),
+      home: const MainPage(),
     );
   }
 }
